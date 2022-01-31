@@ -22,7 +22,7 @@
 		}
 		.wrapper{
 			width: 100%;
-			background-color: antiquewhite;
+			background-color: rgb(255, 255, 255);
 			table-layout: fixed;
 			padding-bottom: 40px;
 		}
@@ -38,11 +38,48 @@
 			font-family: sans-serif;
 			color: #4a4a4a;
 		}
+		.social{
+			padding-left: 5px;
+		}
+		.three-colums{
+			text-align: center;
+			padding-top: 40px;
+			padding-bottom: 30px;
+			font-size:0;
+		}
+		.three-colums .colum{
+			width: 100%;
+			max-width: 200px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.padding{
+			padding: 15px;
+		}
+		.content{
+			font-size: 15px;
+			line-height: 20px;
+		}
+		a{
+			color: #378BDA;
+			text-decoration: none;
+		}
 		@media screen and (max-width: 600px) { 
+			img.third-img-last{
+				width: 200px !important;
+				max-width: 200px !important;
+			}
+			.padding{
+				padding-left: 0 !important;
+
+			}
 
 		}
 		@media screen and (max-width: 400px) {
-
+			img.third-img{
+				width: 200px !important;
+				max-width: 200px !important;
+			}
 		}
 	</style>
 </head>
@@ -50,26 +87,138 @@
 	<center class="wrapper">
 		<div class="outer">
 			<table class="main" align="center">
+				<!-- Social Media -->
 				<tr>
 					<td>
-						<table width ="100%">
+						<table width ="100%" >
 							<tr>
 								<td style="background-color: #378BDA; padding: 10px; text-align: center;">
-									Hello World
-
+									<a href="https://facebook.com/zubair" class="social"><img src="img/white-facebook.png" width="30" alt=""></a>
+									<a href="https://facebook.com/zubair" class="social"><img src="img/white-instagram.png" width="30" alt=""></a>
+									<a href="https://facebook.com/zubair" class="social"><img src="img/white-linkedin.png" width="30" alt=""></a>
+									<a href="https://facebook.com/zubair" class="social"><img src="img/white-twitter.png" width="30" alt=""></a>
+								<a href="https://facebook.com/zubair" class="social"><img src="img/white-youtube.png" width="30" alt=""></a>
 								</td>
 							</tr>
-
+						</table>						
+					</td>
+				</tr>
+				<!-- Brand Logo -->
+				<tr>
+					<td>
+						<table width ="100%" >
+							<tr>
+								<td style="background-color: #ffffff; padding: 10px; text-align: center;">
+									<a href="https://facebook.com/zubair" class="social"><img src="img/w3newbie.png" width="180" alt="" title="Logo"></a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<!-- Banner  -->
+				<tr>
+					<td>
+						<a href="https://facebook.com/zubair"><img src="img/1200x700.png" width="100%" alt="" title="Logo"></a>
+					</td>
+				</tr>
+				<!-- Grid -->
+				<tr>
+					<td>
+						<table width="100%">
+							<tr>
+								<td class="three-colums">
+									<table class="colum">
+										<tr>
+											<td class="padding">
+												<table class="content">
+													<tr>
+														<td>
+															<a href="#"><img src="img/380x280.jpg" class="third-img" width="150" style="max-width: 150px;" alt=""></a>
+														</td>
+													</tr>
+													<tr>
+														<td style="padding: 10px;">
+															<p style="font-weight: 700; font-size: 17px;">APPLE WSTCH</p>
+															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, quas!</p>
+															<a href="#">Learn more..</a>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+									<table class="colum">
+										<tr>
+											<td class="padding">
+												<table class="content">
+													<tr>
+														<td>
+															<a href="#"><img src="img/380x280-3.jpg" class="third-img" width="150" style="max-width: 150px;" alt=""></a>
+														</td>
+													</tr>
+													<tr>
+														<td style="padding: 10px;">
+															<p style="font-weight: 700; font-size: 17px;">WSTCH BANDS</p>
+															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, quas!</p>
+															<a href="#">Learn more..</a>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+									<table class="colum">
+										<tr>
+											<td class="padding">
+												<table class="content">
+													<tr>
+														<td>
+															<a href="#"><img src="img/380x280-2.jpg" class="third-img-last" width="150" style="max-width: 150px;" alt=""></a>
+														</td>
+													</tr>
+													<tr>
+														<td style="padding: 10px;">
+															<p style="font-weight: 700; font-size: 17px;">AIR BAR</p>
+															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, quas!</p>
+															<a href="#">Learn more..</a>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+                <!-- Footer -->
+				<tr>
+					<td style="background-color: #378BDA; height: 10px;"></td>
+				</tr>
+				<tr>
+					<td style="background-color: #efefef;">
+						<table width="100%">
+							<tr>
+								<td style="padding: 20px;text-align: center; padding-bottom: 10px;">
+									<a href="https://facebook.com/zubair" class="social"><img src="img/w3newbie.png" width="160" alt="" title="Logo"></a>
+									<p style="font-size: 16ox; margin-top: 18px;margin-bottom: 10px;">Lorem, ipsum dolor.</p>
+									<p style="font-size: 16ox; margin-top: 18px;margin-bottom: 10px;">Lorem ipsum dolor sit amet consectetur.</p>
+									<p style="font-size: 16ox; margin-top: 18px;margin-bottom: 10px;"><a href="mailto:zubairbhuian@gmail.com">zubairbhuian@gmail.com</a></p>
+									<p style="font-size: 16ox; margin-top: 18px;margin-bottom: 10px;"><a href="tel:+8801732665086">+8801732665086</a></p>
+									<p style="font-size: 16ox; margin-top: 38px;margin-bottom: 30px;"><a href="#">SUBSCRIBE</a></p>
+								</td>
+							</tr>
 
 						</table>
 
 					</td>
 				</tr>
-
-
+				<tr>
+					<td style="background-color: #378BDA; height: 20px;border-bottom-left-radius: 15px;border-bottom-right-radius: 15px;"></td>
+				</tr>
 			</table>
 		</div>
-
 	</center>
 
 
